@@ -89,6 +89,10 @@ In our pictorial representation, that means that the cube we looked at above
 to represent randomness in a simulation is exactly the same in both the
 baseline simulation and the intervention simulation.
 
+Deep thought: Suppose John Smith learns of the intervention reducing traffic 
+accidents on the first day of simulation B. Is he really the same person that he 
+was in simulation A?  (This is actually related to the randomness index below.)
+
 .. image:: ../images/crn_compare_cubes.jpg
 
 The horizontal slice representing John is the same in both cubes, which means
@@ -139,6 +143,11 @@ we need a set of uniquely identifying characteristics that we can use to map a
 simulant to a specific location on the **randomness index** and we need to
 choose those characteristics in such a way that they will be the same across
 simulations.
+
+Questions: how are these characteristics determined, and what is the impact of
+misspecification of these identifying characteristics? Is there a way to validate
+this selection?
+
 
 .. image:: ../images/crn_sim_alignment.jpg
 
